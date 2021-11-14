@@ -1,11 +1,20 @@
+*{
+     margin: 0;
+     padding: 0;
+}
 html{
      font-size: 62.5%;
+     background-color: rgb(73, 79, 160);
 }
 body{
      font-family: 'Segoe UI', sans-serif;
      font-size: 16px;
      font-weight: bold;
      text-align: center;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
 }
 h1{
      margin: 10px auto;
@@ -31,10 +40,10 @@ button{
      text-transform: uppercase;
      color: white;
      transition: 0.2s;
+     margin-bottom: 2rem;
 }
 #increment-btn{
      background-color: rgb(26, 185, 39);
-     margin-bottom: 2rem;
 }
 #increment-btn:hover{
      background-color: rgb(20, 141, 30);
@@ -47,4 +56,7 @@ button{
 }
 #increment-btn:active, #save-btn:active{
      transform: scale(0.95);
+}
+p{
+     font-size: 2rem;
 }
